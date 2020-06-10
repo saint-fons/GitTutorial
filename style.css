@@ -1,0 +1,147 @@
+
+body {
+    font-size: 16px;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-box {
+    position: relative;
+    width: 1440px;
+    height: 1000px;
+    margin: auto;
+    background: url("images/bg-intro-desktop.png") no-repeat;
+    background-size: auto;
+    background-color: hsl(0, 100%, 74%);
+}
+
+
+.try-it {
+    position: absolute;
+    width: 515px;
+    height: 55px;
+
+    border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+
+    background-color: hsl(248, 32%, 49%);
+
+    box-shadow: 0px 10px 1px 0px rgba(0,0,0,0.37);
+
+    top: 79px;
+    left: 747px;
+
+    color: white;
+}
+
+.try-it h1 {
+    font-size: 16px;
+    display: inline;
+}
+
+.heading-header {
+    width: 400px;
+    height: 90px;
+
+    /*margin: 40px auto 40px auto;*/
+    position: absolute;
+    top: 300px;
+    left: 165px;
+    z-index: 0;
+
+    color: white;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.heading-text {
+    width: 520px;
+    height: 200px;
+
+    text-align: left;
+    font-weight: 500;
+    color: white;
+
+    position: relative;
+    top: 430px;
+    left: 170px;
+}
+
+
+
+.wrapper {
+    width: 515px;
+    height: 450px;
+
+    position: absolute;
+    top: 160px;
+    left: 747px;
+
+    border-radius: 5px;
+    padding: 25px;
+
+    background: #fff;
+}
+
+.wrapper .input_field{
+    margin-bottom: 10px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+    border: 1px solid #e0e0e0;
+    width: 100%;
+    padding: 10px;
+}
+
+.wrapper textarea{
+    resize: none;
+    height: 80px;
+}
+
+.wrapper .btn input[type="submit"]{
+    border: 0px;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    background: #fece0c;
+    color: #332902;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: bold;
+
+    border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+
+    box-shadow: 0px 3px 1px 0px rgba(0,0,0,0.37);
+
+    cursor: pointer;
+}
+
+#error_message{
+    margin-bottom: 20px;
+    background: #fe8b8e;
+    padding: 0px;
+    text-align: center;
+    font-size: 14px;
+    transition: all 0.5s ease;
+}
+
+.input_field {
+    border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+}
+
+
+btn {
+    background-color: #fe8b8e;
+}
